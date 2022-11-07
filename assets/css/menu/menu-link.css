@@ -1,0 +1,14 @@
+.menu_link{
+    color: rgb(150, 137, 137);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu_link.ativo{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.menu_link:hover{
+    text-decoration: underline;
+ }

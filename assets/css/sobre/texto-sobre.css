@@ -1,0 +1,11 @@
+.texto_sobre{
+    font-size: 24px;
+    font-family:'Roboto', sans-serif;
+    color: rgb(105, 102, 102);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-left:  20px; 
+
+}

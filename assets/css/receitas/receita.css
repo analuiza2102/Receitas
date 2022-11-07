@@ -1,0 +1,10 @@
+.receita{
+  background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* box shadow  é uma propriedade do CSS, é utilizado para adicionar efeitos de sombra em volta de um elemento */
+    display: flex;   /* flex é uma propriedade do CSS, é utilizado para organizar os elementos em uma linha ou coluna */
+    flex-direction: column; /* flex-direction é uma propriedade do CSS, é utilizado para definir a direção dos elementos flexíveis */
+    margin: 0 0 50px 50px;
+    padding: 20px;
+    width: 300px;
+}

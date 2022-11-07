@@ -1,0 +1,12 @@
+.cabecalho{
+    align-items: center;
+    background-color: rgb(231, 229, 229);
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding: 0 20px;
+    
+    
+}
+
+

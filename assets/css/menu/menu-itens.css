@@ -1,0 +1,7 @@
+/* aqui sao os itens da lista menu*/
+
+.itens_{
+    list-style: none;
+    margin-right: 20px;
+}
+

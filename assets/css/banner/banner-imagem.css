@@ -1,0 +1,9 @@
+.banner_imagem{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    height: calc(600px - 80px);
+
+}
