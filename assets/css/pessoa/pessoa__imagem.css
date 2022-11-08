@@ -1,0 +1,26 @@
+.pessoa__imagem{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.pessoa__imagem--roberta{
+  background-image: url('../../img/pessoas/roberta.jpg') ;
+}
+
+.pessoa__imagem--marcela{
+    background-image: url('../../img/pessoas/marcela.jpg') ;
+}
+
+.pessoa__imagem--andreia{
+    background-image: url('../../img/pessoas/andreia.jpg') ;
+}

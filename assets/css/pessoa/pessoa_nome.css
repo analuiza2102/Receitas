@@ -1,8 +1,8 @@
 .pessoa__nome{
     font-family: 'Pacifico';
-    font-style: normal;
+    margin: 1rem 0;
     font-weight: 400;
     font-size: 32px;
-    line-height: 56px;
-    text-align: center;
+    line-height: 56.19px;
+    color: rgba(141, 6, 6, 1);
 }

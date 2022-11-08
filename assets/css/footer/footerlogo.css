@@ -1,0 +1,14 @@
+.footer__logo{
+     
+    background-repeat: no-repeat;
+    background-size: contain;
+     background-position: left;
+     width: 150px;
+     height: 150px;
+     margin: 0 auto;
+     display: block;
+     margin-top: 40px;
+     margin-bottom: 40px;
+
+
+}

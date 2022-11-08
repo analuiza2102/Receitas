@@ -1,10 +1,38 @@
 .receita{
-  background-color: rgba(255, 255, 255, 1);
+  background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 4rem;
+    padding: 1rem;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* box shadow  é uma propriedade do CSS, é utilizado para adicionar efeitos de sombra em volta de um elemento */
-    display: flex;   /* flex é uma propriedade do CSS, é utilizado para organizar os elementos em uma linha ou coluna */
-    flex-direction: column; /* flex-direction é uma propriedade do CSS, é utilizado para definir a direção dos elementos flexíveis */
-    margin: 0 0 50px 50px;
-    padding: 20px;
-    width: 300px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+     
+
+
+
+   
+}
+
+@media screen and (min-width: 0) {
+  .receita {
+      margin-right: 1rem;
+      width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .receita {
+      margin-right: 2.5rem;
+      width: calc(33% - 2.5rem)
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .receita {
+      margin-right: 5rem;
+      width: calc(25% - 5rem);
+  }
 }

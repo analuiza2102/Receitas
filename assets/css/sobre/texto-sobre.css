@@ -9,3 +9,17 @@
     margin-left:  20px; 
 
 }
+
+@media screen and (min-width: 0) {
+    .texto_sobre {
+        font-size: 21px;  /* 1.3rem */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .texto_sobre {
+        font-size: 28px;  /* 1.75rem */
+     
+    }
+}
+

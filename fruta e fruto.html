@@ -25,11 +25,11 @@
     <link rel="stylesheet" href="assets\css\menu\itens-menu.css">
     <link rel="stylesheet" href="assets\css\menu\menu-itens.css">
     <link rel="stylesheet" href="assets\css\menu\menu-link.css">
+    <link href="assets\css\menu\logo.css" rel="stylesheet" />
 
     <!--css banner-->
     <link rel="stylesheet" href="assets\css\banner\banner.css">
     <link rel="stylesheet" href="assets\css\banner\banner-titulo.css">
-    <link rel="stylesheet" href="assets\css\banner\sobre.css">
     <link rel="stylesheet" href="assets\css\banner\banner-imagem.css">
 
     <!--css sobre-->
@@ -46,16 +46,26 @@
     <link rel="stylesheet" href="assets\css\receitas\receita-conteudo.css">
   
 
-    <!--css footer-->
+    <!--css quem somos-->
     <link rel="stylesheet" href="assets\css\quem-somos\quem-somos.css">
     <link rel="stylesheet" href="assets\css\quem-somos\quem-somos__descricao.css">
-    <link rel="stylesheet" href="assets\css\quem-somos\pessoa\pessoas.css">
-    <link rel="stylesheet" href="assets\css\quem-somos\pessoa\pessoa.css">
     <link rel="stylesheet" href="assets\css\quem-somos\quem-somos__titulo.css">
-    <link rel="stylesheet" href="assets\css\receitas\pessoa_nome.css">
+
+
+
+
+    <!--css pessoas-->
+    
+    <link rel="stylesheet" href="assets\css\pessoa\pessoas.css">
     <link rel="stylesheet" href="assets\css\pessoa\pessoa__funcao.css">
     <link rel="stylesheet" href="assets\css\pessoa\pessoa__imagem.css">
-
+    <link rel="stylesheet" href="assets\css\pessoa\pessoa_nome.css">
+    <link rel="stylesheet" href="assets\css\pessoa\pessoa.css">
+    
+    <!--css contato-->
+    <link rel="stylesheet" href="assets\css\footer\footer.css">
+    <link rel="stylesheet" href="assets\css\footer\footerredes.css">
+    <link rel="stylesheet" href="assets\css\footer\footerlogo.css">
 
 
     <title>Fruta e fruto</title>
@@ -72,11 +82,11 @@
             </ul>
          </nav>
     </header>
-    <section class="banner">
+    <div class="banner">
         <img src="assets\img\banner.jpg" alt="Banner- uma feira/ supermecado." class="banner_imagem">
         <h2 class="titulo_banner">Reaproveite melhor os alimentos!</h2>
         
-    </section>
+    </div>
     <section class="sobre">
         <h2 class="titulo_sobre">Receitas para economizar e ganhar saúde</h2>
         <p class="texto_sobre">Nossas receitas ajudam você a aproveitar melhor os alimentos,
@@ -88,7 +98,8 @@
             <img alt="Tigela de abacate" class="receita__imagem" src="./assets/img/receitas/tigela-de-abacate.jpg" />
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Tigela de abacate</h4>
-                <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                <p class="receita__descricao">Receita refrescante e cheia de vitaminas
+                     para seu café da manhã.</p>
                 <button class="receita__botao">Ver receita</button>
             </div>
         </div>
@@ -142,20 +153,33 @@
             <div class="pessoa">
                 <div class="pessoa__imagem pessoa__imagem--roberta">  </div>
                 <span class="pessoa__nome">Roberta</span>
+                <br>
                 <span class="pessoa__funcao">Conteúdo</span>
             </div>
             <div class="pessoa">
                 <div class="pessoa__imagem pessoa__imagem--marcela"></div>
                 <span class="pessoa__nome">Marcela</span>
+                <br>
                 <span class="pessoa__funcao">Chef de cozinha</span>
             </div>
             <div class="pessoa">
                 <div class="pessoa__imagem pessoa__imagem--andreia"></div>
                 <span class="pessoa__nome">Andréia</span>
+                <br>
                 <span class="pessoa__funcao">Pequena Produtora</span>
             </div>
         </div>
     </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__redes-sociais">
+                <a href="#"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" class="faceb"></a>
+                <a href="#"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" class="insta"></a>
+                <a href="#"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" class="twit"></a>
+            </div>
+        </div>
+    </footer>
 
     
 </body>

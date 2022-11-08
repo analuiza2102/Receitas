@@ -7,4 +7,18 @@
     margin-bottom: 20px;
     margin-top: 20px;
     
+
 }
+
+@media screen and (min-width: 0) {
+    .titulo_sobre {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .titulo_sobre {
+        font-size: 3.1875rem;
+    }
+}
+
